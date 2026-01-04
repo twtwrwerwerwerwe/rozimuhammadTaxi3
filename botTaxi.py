@@ -3,21 +3,19 @@ import asyncio
 from telethon import TelegramClient, events
 
 # =================== TELEGRAM API ===================
-api_id = 34496555
-api_hash = '1fb3983e68d2c33b3eb420fe55d82b2a'
+api_id = 32214695
+api_hash = 'c6005a5632efb38901b1893630ac2693'
 
 client = TelegramClient('taxi_session', api_id, api_hash)
 
 # =================== SKIP CHAT ID ===================
 SKIP_CHAT_IDS = [
-    -1003398571650,
-    -1002963614686
+    -1003600494822
 ]
 
 # =================== TARGET CHAT ID ===================
 TARGET_CHAT_IDS = [
-    -1003398571650,
-    -1002963614686
+    -1003600494822
 ]
 
 # =================== KALIT SO‘ZLAR ===================
