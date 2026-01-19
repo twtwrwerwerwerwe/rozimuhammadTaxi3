@@ -3,8 +3,8 @@ import asyncio
 from telethon import TelegramClient, events
 
 # =================== TELEGRAM API ===================
-api_id = 33649926
-api_hash = '7f684166c563ed8dbc1237dc8d33663d'
+api_id = 38718219
+api_hash = '05f3e244825d1d4f81b4c7f2f9a14e8f'
 
 client = TelegramClient('taxi_session', api_id, api_hash)
 
